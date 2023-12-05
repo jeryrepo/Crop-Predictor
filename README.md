@@ -17,25 +17,22 @@ The dataset was created by augmenting rainfall, climate, and fertilizer data ava
 
 ## Analysis Steps
 
-1. **Data Preprocessing**: The dataset was cleaned and preprocessed to handle any missing values and ensure proper formatting.
+1. **Data Preprocessing**: The dataset was cleaned handled the missing values deal with outliers, lable encoded and scaled.
 
-2. **Exploratory Data Analysis (EDA)**: Exploratory data analysis was performed to understand the distribution of key features, identify correlations, and gain insights into the nature of the dataset.
+2. **Exploratory Data Analysis (EDA)**: Exploratory data analysis was performed to understand the distribution of key features, identify correlations, and gain insights into the nature of the dataset by comparing different variables with target variable.
 
 3. **Data Splitting**: The dataset was split into training and testing sets to facilitate model training and evaluation.
 
-4. **Model Training**: A RandomForestClassifier was chosen as the predictive model due to its ability to handle complex relationships in data.
+4. **Model Training**: A Decision Tree, Random Forest, Support Vector Machine, Logistic Regression, k-Nearest Neighbors was trained but the model i choosed was random forest.
 
-5. **Hyperparameter Tuning**: To optimize the model's performance, hyperparameter tuning was performed using GridSearchCV to find the best combination of hyperparameters.
+5. **Hyperparameter Tuning**: To optimize the model's performance, hyperparameter tuning was performed using RandomizedSearchCV to find the best combination of hyperparameters.
 
 6. **Model Evaluation**: The model's performance was evaluated using accuracy, precision, recall, and F1-score metrics. Confusion matrices were also analyzed to understand the model's predictions.
-
-7. **ROC Curve Analysis**: ROC curves and AUC were computed for each class to evaluate the model's performance in a multiclass scenario.
 
 ## Results
 
 - The RandomForestClassifier achieved an accuracy of 99.32% on the test set.
 - Precision, recall, and F1-score metrics were analyzed for each class.
-- The ROC curve analysis provided insights into the model's performance across different classes.
 
 ## Usage
 
