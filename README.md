@@ -1,5 +1,5 @@
 # Crop Recommendation System
-
+![ezgif com-gif-maker](https://github.com/jeryrepo/Crop-Predictor/assets/142509067/a103862f-5a80-4625-bc55-4368cff58560)
 ## Overview
 
 This project focuses on building a predictive model for recommending the most suitable crops to grow in a particular farm based on various soil and climate parameters. The dataset used for this project includes information on nitrogen (N), phosphorous (P), potassium (K) content in soil, temperature, humidity, pH value of the soil, and rainfall.
